@@ -13,7 +13,6 @@ app = FastAPI()
 
 class InputData(BaseModel):
     query: str
-    query2: str
 
 
 @app.post("/post_endpoint/")
